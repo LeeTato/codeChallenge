@@ -32,6 +32,7 @@
 function sortArray(array) {
     let odd = [];
     for(let i = 0; i < array.length; i++) {
+        // console.log(i)
      array.filter((x, i) => x%2  && odd.push(i))
     .sort((a,b) => a-b).forEach((x,i) => array[odd[i]] = x )
       
