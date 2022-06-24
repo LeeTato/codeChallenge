@@ -42,3 +42,5 @@ function sortArray(array) {
   }
 
   console.log(sortArray([5, 3, 2, 8, 1, 4,9,7]))
+
+  
